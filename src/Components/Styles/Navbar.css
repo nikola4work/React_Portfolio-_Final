@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+#mySidenav a {
+    position: absolute;
+    left: -100px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 160px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    text-align: center;
+    z-index: 1;
+    font-family: 'Oswald', sans-serif;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#about {
+    top: 220px;
+    background-color: black;
+    border: 3px solid #fff;
+}
+
+#portfolio {
+    top: 320px;
+    background-color: black;
+    border: 3px solid #fff;
+}
+
+#contact {
+    top: 420px;
+    background-color: black;
+    border: 3px solid #fff;
+}
+
+.icons {
+    margin-left: 20px;
+}
+
+.icons_about {
+    margin-left: 40px;
+}
