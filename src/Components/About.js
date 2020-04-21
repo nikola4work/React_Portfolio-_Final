@@ -1,13 +1,12 @@
 import React from "react";
 import "./Styles/About.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import {Container, Row, Col} from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
 function About() {
   return (
     <Container fluid className="about_page">
       <div className="title_container">
-        {" "}
         <h1 className="about_name">Nikola Jovanovic</h1>
         <p className="about_subtitle">Full-stack Web Developer</p>
       </div>
@@ -16,7 +15,8 @@ function About() {
         <Row>
           <Col>
             <h1 className="about_title">About Me</h1>
-            <hr />
+
+            <hr className="about_hr" />
             <p className="about_me_text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Voluptatibus doloremque illum praesentium veritatis tempora et

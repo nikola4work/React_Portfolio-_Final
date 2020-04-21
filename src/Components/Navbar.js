@@ -12,7 +12,7 @@ function Navbar() {
   return (
     <Router>
       <Container id="mySidenav" className="sidenav">
-        <Link to="/About" id="about">
+        <Link to="" id="about">
           About
           <span className="icons_about">
             <i class="fa fa-user"></i>
@@ -34,7 +34,7 @@ function Navbar() {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="/About">
+          <Route exact path="">
             <About />
           </Route>
           <Route path="/Portfolio">
