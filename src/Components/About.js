@@ -8,7 +8,7 @@ function About() {
     <Container fluid className="about_page">
       <div className="title_container">
         <h1 className="about_name">Nikola Jovanovic</h1>
-        <p className="about_subtitle">Full-stack Web Developer</p>
+        <p className="about_subtitle">Full-stack web developer</p>
       </div>
 
       <Container className="about_me_container">

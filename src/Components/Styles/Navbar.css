@@ -29,7 +29,7 @@
 
 #portfolio {
     top: 380px;
-    background-color: 2196F3;
+    background-color: black;
     border: 3px solid #fff;
 }
 
@@ -54,9 +54,53 @@
     border-radius: 8px;
     margin-top: 70px;
     opacity: 0.1;
+    border: 3px solid #fff;
 }
 
 .profile_pic:hover {
     opacity: 1;
 }
 
+/* MEDIA QUERY */
+
+@media screen and (max-width: 568px) {
+    #mySidenav a {
+        position: absolute;
+        left: -100px;
+        transition: 0.3s;
+        padding: 15px;
+        width: 160px;
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+        border-radius: 0 5px 5px 0;
+        text-align: center;
+        z-index: 1;
+        font-family: 'Oswald', sans-serif;
+        opacity: 0.1;
+    }
+    #mySidenav a:hover {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #mySidenav a {
+        position: absolute;
+        left: -100px;
+        transition: 0.3s;
+        padding: 15px;
+        width: 160px;
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+        border-radius: 0 5px 5px 0;
+        text-align: center;
+        z-index: 1;
+        font-family: 'Oswald', sans-serif;
+        opacity: 0.1;
+    }
+    #mySidenav a:hover {
+        opacity: 1;
+    }
+}

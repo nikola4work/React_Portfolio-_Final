@@ -18,34 +18,61 @@
 
 .title_container {
     text-align: center;
-    margin-top:40px;
+    margin-top: 40px;
 }
 
-.about_name{
+.about_name {
     font-size: 70px;
 }
 
-.about_subtitle{
-    margin-top:20px;
-font-size: 25px;
+.about_subtitle {
+    margin-top: 20px;
+    font-size: 25px;
 }
 
-.about_me_container{
-margin-top:70px;
+.about_me_container {
+    margin-top: 70px;
     max-width: 70vw;
-   
     position: relative;
-    left:5%;
+    left: 5%;
 }
 
-.about_me_text{
+.about_me_text {
     font-size: 22px;
     line-height: 2.2rem;
 }
 
-.about_hr{
+.about_hr {
     background-color: #fff;
     max-width: 15vw;
     position: relative;
-    right:40%;
+    right: 40%;
+}
+
+@media screen and (max-width: 568px) {
+    .about_page {
+        position: relative;
+        left: -3%;
+        overflow: hidden;
+    }
+    .about_me_container {
+        position: relative;
+        left: 10%;
+    }
+    .about_title {
+        text-align: center;
+    }
+    .about_hr {
+        position: relative;
+        right: 1%;
+        min-width: 40vw;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .about_page {
+        position: relative;
+        left: -4.5%;
+        overflow: hidden;
+    }
 }
