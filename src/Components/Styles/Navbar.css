@@ -22,20 +22,20 @@
 }
 
 #about {
-    top: 220px;
-    background-color: black;
+    top: 280px;
+    background-color: #2196F3;
     border: 3px solid #fff;
 }
 
 #portfolio {
-    top: 320px;
-    background-color: black;
+    top: 380px;
+    background-color: 2196F3;
     border: 3px solid #fff;
 }
 
 #contact {
-    top: 420px;
-    background-color: black;
+    top: 480px;
+    background-color: #f44336;
     border: 3px solid #fff;
 }
 
@@ -46,3 +46,17 @@
 .icons_about {
     margin-left: 40px;
 }
+
+.profile_pic {
+    width: 170px;
+    height: 130px;
+    transform: rotate(90deg);
+    border-radius: 8px;
+    margin-top: 70px;
+    opacity: 0.1;
+}
+
+.profile_pic:hover {
+    opacity: 1;
+}
+
