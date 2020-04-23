@@ -1,6 +1,6 @@
 import React from "react";
 import "./Styles/About.css";
-import Me from "../Components/Images/Me.jpg";
+import Me2 from "../Components/Images/Me2.jpg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Row, Col } from "react-bootstrap";
 
@@ -9,16 +9,13 @@ function About() {
     <Container fluid className="about_page">
       <div className="title_container">
         <h1 className="about_name">Nikola Jovanovic</h1>
-        <p className="about_subtitle">React Portfolio display</p>
-        <img src={Me} className="profile_pic" alt="img"></img>
+        <p className="about_subtitle">React Portfolio Display</p>
+        <img src={Me2} className="profile_pic" alt="img"></img>
       </div>
 
       <Container className="about_me_container">
         <Row>
           <Col>
-            <h1 className="about_title">About Me</h1>
-
-            <hr className="about_hr" />
             <p className="about_me_text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Voluptatibus doloremque illum praesentium veritatis tempora et

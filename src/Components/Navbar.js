@@ -49,7 +49,7 @@ function Navbar() {
           </span>
         </a>
 
-        <a href="" target="_blank" id="resume">
+        <a href="#" target="_blank" id="resume">
           Resume
           <span className="icons">
             <i className="fa fa-download"></i>
