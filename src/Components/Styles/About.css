@@ -4,7 +4,7 @@
 
 .about_page {
     border: 1px solid black;
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../Images/bcg_about.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url("../Images/bcg_about.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -44,9 +44,9 @@
 
 .about_hr {
     background-color: #fff;
-    max-width: 15vw;
+    max-width: 12vw;
     position: relative;
-    right: 40%;
+    right: 42%;
 }
 
 @media screen and (max-width: 568px) {

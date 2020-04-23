@@ -19,24 +19,29 @@
 
 #mySidenav a:hover {
     left: 0;
+    opacity: 1;
 }
 
 #about {
     top: 280px;
     background-color: #2196F3;
     border: 3px solid #fff;
+    opacity: 0.3;
 }
 
 #portfolio {
     top: 380px;
     background-color: black;
     border: 3px solid #fff;
+    opacity: 0.3;
 }
 
 #contact {
     top: 480px;
     background-color: #f44336;
     border: 3px solid #fff;
+    opacity: 0.3;
+  
 }
 
 .icons {
@@ -48,11 +53,11 @@
 }
 
 .profile_pic {
-    width: 170px;
-    height: 130px;
-    transform: rotate(90deg);
+    width: 147px;
+    height: 170px;
+    transform: rotate(0deg);
     border-radius: 8px;
-    margin-top: 70px;
+    margin-top: 50px;
     opacity: 0.1;
     border: 3px solid #fff;
 }

@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+.portfolio {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Images/brick_wall.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vw;
+    position: relative;
+    left: -11.5%;
+    color: #fff;
+    overflow: hidden;
+}
+
+.portfolio_content {
+    margin-top: 100px;
+    position: relative;
+    left: 4%;
+}
+
+.img {
+    width: 558px;
+    height: 394px;
+}
+
+.portfolio_title {
+    margin-top: 30px;
+    position: relative;
+    left: 20%;
+}
+
+.portf_hr {
+    background-color: #FFF;
+    width: 15vw;
+    position: relative;
+    right: 23%;
+}
+
+/* portofolio cards*/
+
+
