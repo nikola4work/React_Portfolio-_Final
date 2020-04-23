@@ -17,28 +17,15 @@
 }
 
 .portfolio_content {
-    margin-top: 100px;
+    margin-top: 20px;
     position: relative;
     left: 4%;
+    
 }
 
-.img {
-    width: 558px;
-    height: 394px;
-}
 
-.portfolio_title {
-    margin-top: 30px;
-    position: relative;
-    left: 20%;
-}
 
-.portf_hr {
-    background-color: #FFF;
-    width: 15vw;
-    position: relative;
-    right: 23%;
-}
+
 
 /* portofolio cards*/
 

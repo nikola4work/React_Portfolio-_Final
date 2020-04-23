@@ -2,23 +2,9 @@
     box-sizing: border-box;
 }
 
-.profile_pic {
-    width: 135px;
-    height: 145px;
-    border-radius: 50%;
-    margin-top: 20px;
-    opacity: 0.08;
-    
-}
-
-.profile_pic:hover {
-    opacity: 1;
-    border: 2px solid #Fff;
-}
-
 .about_page {
     border: 1px solid black;
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url("../Images/bcg_about.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../Images/bcg_about.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,9 +17,8 @@
 }
 
 .title_container {
-    margin-top: 30px;
+    margin-top: 40px;
     text-align: center;
-   
 }
 
 .about_name {
@@ -46,13 +31,13 @@
 }
 
 .about_me_container {
-    max-width: 70vw;
+    max-width: 65vw;
     position: relative;
     left: 5%;
 }
 
 .about_me_text {
-    margin-top: 60px;
+    margin-top: 100px;
     font-size: 22px;
     line-height: 2.2rem;
 }
@@ -62,6 +47,45 @@
     max-width: 12vw;
     position: relative;
     right: 42%;
+}
+
+.dropbtn {
+    margin-top:40px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #00070A;
+    border: #00070A;
+    color: #fff;
+    padding: 5px 10px 5px 10px;
+}
+
+.dropbtn:hover {
+    border-bottom: 2px solid #Fff;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    padding: 20px;
+    z-index: 1;
+}
+
+.show {
+    display: block;
+}
+
+.profile_pic {
+    width: 155px;
+    height: 165px;
+    margin-top: 10px;
+    margin-left: -50px;
+    border-radius: 8px;
+    border: 2px solid #fff;
 }
 
 @media screen and (max-width: 568px) {
