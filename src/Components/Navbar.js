@@ -5,7 +5,6 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import About from "./About";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact";
-import Me from "../Components/Images/Me.jpg";
 
 import Container from "react-bootstrap/Container";
 
@@ -13,10 +12,6 @@ function Navbar() {
   return (
     <Router>
       <Container id="mySidenav" className="sidenav">
-        <a href="#" className="image">
-          <img src={Me} className="profile_pic" alt=""></img>
-        </a>
-
         <Link to="/" id="about">
           About
           <span className="icons_about">
@@ -32,9 +27,34 @@ function Navbar() {
         <Link to="/Contact" id="contact">
           Contact
           <span className="icons">
-            <i className="fa fa-user"></i>
+            <i className="fa fa-envelope"></i>
           </span>
         </Link>
+
+        <a
+          href="https://www.linkedin.com/in/niko-jovanovic/"
+          target="_blank"
+          id="linkedin"
+        >
+          LinkedIn
+          <span className="icons">
+            <i className="fa fa-linkedin"></i>
+          </span>
+        </a>
+
+        <a href="https://github.com/nikola4work" target="_blank" id="github">
+          GitHub
+          <span className="icons">
+            <i className="fa fa-github"></i>
+          </span>
+        </a>
+
+        <a href="" target="_blank" id="resume">
+          Resume
+          <span className="icons">
+            <i className="fa fa-download"></i>
+          </span>
+        </a>
 
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}

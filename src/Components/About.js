@@ -1,5 +1,6 @@
 import React from "react";
 import "./Styles/About.css";
+import Me from "../Components/Images/Me.jpg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Row, Col } from "react-bootstrap";
 
@@ -9,6 +10,7 @@ function About() {
       <div className="title_container">
         <h1 className="about_name">Nikola Jovanovic</h1>
         <p className="about_subtitle">React Portfolio display</p>
+        <img src={Me} className="profile_pic" alt="img"></img>
       </div>
 
       <Container className="about_me_container">
@@ -24,13 +26,6 @@ function About() {
               dolores. Deleniti tempora vitae perspiciatis possimus commodi quia
               harum aspernatur ratione? Exercitationem dicta libero odio unde
               facilis impedit autem laudantium vel odit aspernatur nesciunt
-              sapiente, ratione perspiciatis temporibus cum dolor velit iste,
-              quas soluta iusto mollitia, minus tempora maxime assumenda. Eum
-              excepturi voluptatem recusandae, doloribus commodi harum nam
-              dolorem. Reiciendis eius, maxime quae nulla consequuntur commodi
-              nesciunt blanditiis? Repellat aliquam harum iure ipsam corporis
-              dignissimos voluptate eligendi accusantium rem. Blanditiis a
-              officia possimus adipisci libero?
             </p>
           </Col>
         </Row>

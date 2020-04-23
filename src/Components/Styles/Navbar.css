@@ -23,25 +23,45 @@
 }
 
 #about {
-    top: 280px;
+    top: 30px;
     background-color: #2196F3;
     border: 3px solid #fff;
-    opacity: 0.3;
+    opacity: 0.2;
 }
 
 #portfolio {
-    top: 380px;
+    top: 130px;
     background-color: black;
     border: 3px solid #fff;
-    opacity: 0.3;
+    opacity: 0.2;
 }
 
 #contact {
-    top: 480px;
+    top: 230px;
     background-color: #f44336;
     border: 3px solid #fff;
-    opacity: 0.3;
-  
+    opacity: 0.2;
+}
+
+#resume {
+    top: 330px;
+    background-color: #ccccb3;
+     border: 3px solid #fff;
+    opacity: 0.2;
+}
+
+#linkedin {
+    top: 430px;
+    background-color: #e699ff;
+    border: 3px solid #fff;
+    opacity: 0.2;
+}
+
+#github {
+    top: 530px;
+    background-color: #b3cccc;
+    border: 3px solid #fff;
+    opacity: 0.2;
 }
 
 .icons {
@@ -50,20 +70,6 @@
 
 .icons_about {
     margin-left: 40px;
-}
-
-.profile_pic {
-    width: 147px;
-    height: 170px;
-    transform: rotate(0deg);
-    border-radius: 8px;
-    margin-top: 50px;
-    opacity: 0.1;
-    border: 3px solid #fff;
-}
-
-.profile_pic:hover {
-    opacity: 1;
 }
 
 /* MEDIA QUERY */

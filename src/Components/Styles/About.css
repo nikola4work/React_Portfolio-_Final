@@ -2,6 +2,20 @@
     box-sizing: border-box;
 }
 
+.profile_pic {
+    width: 150px;
+    height: 160px;
+   
+    border-radius: 50%;
+    margin-top: 20px;
+    opacity: 0.1;
+    border: 3px solid #fff;
+}
+
+.profile_pic:hover {
+    opacity: 1;
+}
+
 .about_page {
     border: 1px solid black;
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url("../Images/bcg_about.jpg");
@@ -17,8 +31,9 @@
 }
 
 .title_container {
+    margin-top: 20px;
     text-align: center;
-    margin-top: 40px;
+   
 }
 
 .about_name {
@@ -31,7 +46,7 @@
 }
 
 .about_me_container {
-    margin-top: 70px;
+    
     max-width: 70vw;
     position: relative;
     left: 5%;
