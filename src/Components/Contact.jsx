@@ -1,7 +1,7 @@
 import React from "react";
 import "./Styles/Contact.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Container, Jumbotron, Row, Col } from "react-bootstrap";
+
 
 function Contact() {
   return (

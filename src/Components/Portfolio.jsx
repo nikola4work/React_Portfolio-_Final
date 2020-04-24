@@ -10,7 +10,7 @@ import weather from "../Components/Images/weather.gif";
 
 function Portfolio() {
   return (
-    <div className="container portfolio">
+    <div className="container-fluid portfolio">
       <div className="container project">
         <div className="row">
           <div className="col-md-3 project-work">
@@ -81,7 +81,7 @@ function Portfolio() {
             </div>
           </div>
         </div>
-        <div className="row">
+        <div className="row" id="media">
           <div className="col-md-3 project-work">
             {" "}
             <img src={notes} alt="Avatar" className="image"></img>

@@ -28,7 +28,7 @@
     left: 5%;
     margin: 20px;
     margin-top: 20px;
-    margin-left: 30px;
+    margin-left: 40px;
 }
 
 .image {
@@ -56,16 +56,14 @@
 
 .project-work:hover .image {
     opacity: 0.3;
- 
 }
 
 .project-work:hover .middle {
     opacity: 1;
-   
 }
 
 .text {
-    background-color: #F44336;
+    background-color: #2196F3;
     color: #fff;
     height: 262px;
     width: 320px;
@@ -92,4 +90,66 @@
     transform: scale(1.1);
     border-bottom: 2px solid #fff;
     box-shadow: 2px 2px 3px 0px black;
+}
+
+@media only screen and (max-width: 376px) {
+    .middle {
+        position: relative;
+        margin-right: -50px;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .project-work {
+        width: 250px;
+        height: 240px;
+        position: relative;
+        left: -20%;
+    }
+    .image {
+        width: 200px;
+        height: 200px;
+    }
+    .middle {
+        position: relative;
+        left: -20%;
+    }
+    .text {
+        width: 200px;
+        height: 200px;
+        margin-top: -262px;
+        margin-left: 40px;
+    }
+    .work-title {
+        font-size: 15px;
+    }
+    .work-text {
+        font-size: 12px;
+    }
+    .button {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .project {
+        min-width: 100vw;
+        min-height: 100vh;
+    }
+    .project-work {
+        position: relative;
+        right: 60%;
+    }
+    .middle {}
+}
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .project-work {
+        margin-left: 160px;
+    }
+    .middle {
+        margin-left: 44px;
+    }
 }

@@ -33,6 +33,7 @@ function Navbar() {
         <a
           href="https://www.linkedin.com/in/niko-jovanovic/"
           target="_blank"
+          rel="noopener noreferrer"
           id="linkedin"
         >
           LinkedIn
@@ -41,7 +42,12 @@ function Navbar() {
           </span>
         </a>
 
-        <a href="https://github.com/nikola4work" target="_blank" id="github">
+        <a
+          href="https://github.com/nikola4work"
+          target="_blank"
+          rel="noopener noreferrer"
+          id="github"
+        >
           GitHub
           <span className="icons">
             <i className="fa fa-github"></i>
@@ -52,6 +58,7 @@ function Navbar() {
           href="https://drive.google.com/file/d/1Ron7GiJFUX5d-D84LqDdkR3waELumITW/view?usp=sharing"
           id="resume"
           target="_blank"
+          rel="noopener noreferrer"
         >
           Resume
           <span className="icons">
