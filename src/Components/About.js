@@ -37,8 +37,8 @@ function About() {
       </div>
 
       <Container className="about_me_container">
-        <Row>
-          <Col>
+        <div className="row">
+          <div className="col-md-12">
             <p className="about_me_text">
               UX/UI design-thinking, responsive web design and creation are my
               passions. Delighting users by creating UX/UI experiences that are
@@ -52,8 +52,8 @@ function About() {
               products that drive true value and increase user-adoption are
               truly inspiring to me.
             </p>
-          </Col>
-        </Row>
+          </div>
+        </div>
       </Container>
     </Container>
   );

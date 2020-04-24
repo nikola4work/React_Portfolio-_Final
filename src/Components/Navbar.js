@@ -49,7 +49,11 @@ function Navbar() {
           </span>
         </a>
 
-        <a href="#" target="_blank" id="resume">
+        <a
+          href="https://drive.google.com/file/d/1Ron7GiJFUX5d-D84LqDdkR3waELumITW/view?usp=sharing"
+          id="resume"
+          target="_blank"
+        >
           Resume
           <span className="icons">
             <i className="fa fa-download"></i>

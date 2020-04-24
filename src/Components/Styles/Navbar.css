@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-#mySidenav a {
+#mySidenav a  {
     position: absolute;
     left: -100px;
     transition: 0.3s;
