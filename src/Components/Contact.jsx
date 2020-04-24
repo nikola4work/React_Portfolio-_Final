@@ -5,12 +5,12 @@ import { Container, Jumbotron, Row, Col } from "react-bootstrap";
 
 function Contact() {
   return (
-    <Container id="bcg_contact">
-      <div className="wrapper">
-        <Row>
-          <Col>
+    <div className="container-fluid" id="bcg_contact">
+      <div className="container wrapper">
+        <div className="row">
+          <div className="col">
             <div className="company-info">
-              <h2 className="chat">Let's Chat!</h2>
+              <h1 className="chat">Let's Chat!</h1>
               <br />
               <ul>
                 <li>
@@ -26,11 +26,11 @@ function Contact() {
                 </li>
               </ul>
             </div>
-          </Col>
-        </Row>
+          </div>
+        </div>
 
-        <Row>
-          <Col>
+        <div className="row">
+          <div className="col">
             <div className="contact">
               <form id="contact-form">
                 <p>
@@ -63,10 +63,10 @@ function Contact() {
                 </p>
               </form>
             </div>
-          </Col>
-        </Row>
+          </div>
+        </div>
       </div>
-    </Container>
+    </div>
   );
 }
 export default Contact;

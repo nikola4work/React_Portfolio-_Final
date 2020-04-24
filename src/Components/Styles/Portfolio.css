@@ -10,8 +10,6 @@
     background-size: cover;
     min-height: 100vh;
     min-width: 100vw;
-    position: relative;
-    left: -11.5%;
     color: #fff;
     overflow: hidden;
 }
@@ -19,7 +17,7 @@
 /* portofolio cards*/
 
 .project {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .project-work {
@@ -30,6 +28,7 @@
     left: 5%;
     margin: 20px;
     margin-top: 20px;
+    margin-left: 30px;
 }
 
 .image {

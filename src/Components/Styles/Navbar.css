@@ -2,7 +2,8 @@
     box-sizing: border-box;
 }
 
-#mySidenav a  {
+
+#mySidenav a {
     position: absolute;
     left: -100px;
     transition: 0.3s;
@@ -46,7 +47,7 @@
 #resume {
     top: 330px;
     background-color: #818181;
-     border: 3px solid #fff;
+    border: 3px solid #fff;
     opacity: 0.2;
 }
 

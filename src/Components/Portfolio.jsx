@@ -1,21 +1,16 @@
 import React from "react";
 import "./Styles/Portfolio.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Container, Row, Col } from "react-bootstrap";
-import burger from "../Components/Images/burger.gif"
+import burger from "../Components/Images/burger.gif";
 import codeQuiz from "../Components/Images/codeQuiz.gif";
 import goat from "../Components/Images/goat.gif";
 import notes from "../Components/Images/notes.gif";
 import virtualfair from "../Components/Images/virtualfair.gif";
 import weather from "../Components/Images/weather.gif";
 
-
-
-
-
 function Portfolio() {
   return (
-    <Container className="portfolio">
+    <div className="container portfolio">
       <div className="container project">
         <div className="row">
           <div className="col-md-3 project-work">
@@ -158,7 +153,7 @@ function Portfolio() {
           </div>
         </div>
       </div>
-    </Container>
+    </div>
   );
 }
 

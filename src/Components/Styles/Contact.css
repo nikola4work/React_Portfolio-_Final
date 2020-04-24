@@ -11,16 +11,17 @@
     background-size: cover;
    min-width: 100vw;
    min-height: 100vh;
-   position: relative;
-   left:-11.5%;
-  
+
+}
+
+.wrapper{
     
-  
 }
 
 
 ul {
     list-style: none;
+    margin-left: 35px;
     
 }
 
@@ -50,11 +51,11 @@ ul {
 
 .company-info {
     color:#fff;
-    border-top-left-radius: 4px;
-    margin-left: 150px;
+    
+    
 }
 
-.company-info h2, .company-info ul {
+.company-info h1, .company-info ul {
     text-align: center;
    
 }

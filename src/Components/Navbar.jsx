@@ -6,12 +6,11 @@ import About from "./About";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact";
 
-import Container from "react-bootstrap/Container";
 
 function Navbar() {
   return (
     <Router>
-      <Container id="mySidenav" className="sidenav">
+      <div className="container" id="mySidenav" className="sidenav">
         <Link to="/" id="about">
           About
           <span className="icons_about">
@@ -73,7 +72,7 @@ function Navbar() {
             <Contact />
           </Route>
         </Switch>
-      </Container>
+      </div>
     </Router>
   );
 }

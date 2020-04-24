@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-.about_page {
+#about_page {
     border: 1px solid black;
     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../Images/bcg_about.jpg");
     background-position: center;
@@ -10,13 +10,11 @@
     background-size: cover;
     min-height: 100vh;
     min-width: 100vw;
-    position: relative;
-    left: -11.5%;
     color: #fff;
     font-family: 'Oswald', sans-serif;
 }
 
-.title_container {
+#title_container {
     margin-top: 40px;
     text-align: center;
 }
@@ -30,88 +28,23 @@
     font-size: 25px;
 }
 
-.about_me_container {
-    max-width: 65vw;
-    position: relative;
-    left: 5%;
-}
-
 .about_me_text {
     margin-top: 100px;
     font-size: 22px;
     line-height: 2.2rem;
-}
-
-.about_hr {
-    background-color: #fff;
-    max-width: 12vw;
+    width: 60vw;
     position: relative;
-    right: 42%;
+    left: 7%;
 }
 
-.dropbtn {
-    margin-top:40px;
-    font-size: 16px;
-    cursor: pointer;
-    background-color: #00070A;
-    border: #00070A;
-    color: #fff;
-    padding: 5px 10px 5px 10px;
-}
-
-.dropbtn:hover {
-    border-bottom: 2px solid #Fff;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    padding: 20px;
-    z-index: 1;
-}
-
-.show {
-    display: block;
-}
-
-.profile_pic {
-    width: 155px;
-    height: 165px;
-    margin-top: 10px;
-    margin-left: -50px;
+.profile {
+    width: 180px;
+    height: 200px;
+    float: right;
+    border: 1p solid black;
     border-radius: 8px;
-    border: 2px solid #fff;
 }
 
-@media screen and (max-width: 568px) {
-    .about_page {
-        position: relative;
-        left: -3%;
-        overflow: hidden;
-    }
-    .about_me_container {
-        position: relative;
-        left: 10%;
-    }
-    .about_title {
-        text-align: center;
-    }
-    .about_hr {
-        position: relative;
-        right: 1%;
-        min-width: 40vw;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .about_page {
-        position: relative;
-        left: -4.5%;
-        overflow: hidden;
-    }
+.example {
+    margin-top: 10px;
 }
