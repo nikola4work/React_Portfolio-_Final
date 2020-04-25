@@ -32,7 +32,11 @@ function Contact() {
         <div className="row">
           <div className="col">
             <div className="contact">
-              <form id="contact-form">
+              <form
+                action="https://formspree.io/mjvennzl"
+                method="POST"
+                id="contact-form"
+              >
                 <p>
                   <label>Name</label>
                   <input type="text" name="name" id="name" required></input>
