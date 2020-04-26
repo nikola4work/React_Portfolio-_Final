@@ -21,7 +21,7 @@ function About() {
             <p className="about_me_text">
               {" "}
               UX/UI design-thinking, responsive web design and creation are my
-              passions. Delighting users by creating UX/UI experiences that are
+              passions. Delighting users by creating web applications that are
               inspiring, engaging, and memorable are what drive me and motivate
               me to do more. Experienced in Front-End and Back-End Technologies.
               I am extremely passionate about approaching programming and design

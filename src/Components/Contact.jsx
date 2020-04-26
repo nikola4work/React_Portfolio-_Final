@@ -33,35 +33,31 @@ function Contact() {
           <div className="col">
             <div className="contact">
               <form
-                action="https://formspree.io/mjvennzl"
+                action="https://formspree.io/mqkdrrjv"
                 method="POST"
                 id="contact-form"
               >
+                
                 <p>
                   <label>Name</label>
                   <input type="text" name="name" id="name" required></input>
                 </p>
-
                 <p>
                   <label>Company</label>
                   <input type="text" name="company" id="company"></input>
                 </p>
-
                 <p>
                   <label>E-mail Address</label>
                   <input type="email" name="email" id="email" required></input>
                 </p>
-
                 <p>
                   <label>Phone Number</label>
                   <input type="text" name="phone" id="phone"></input>
                 </p>
-
                 <p className="full">
                   <label>Message</label>
                   <textarea name="message" rows="5" id="message"></textarea>
                 </p>
-
                 <p className="full">
                   <button type="submit">Submit</button>
                 </p>
