@@ -7,7 +7,7 @@
 
 ## Live Preview
 
-<a href="" target="_blank"><img src=""> </a>
+<a href="src/Components/Images/readme_img.gif" target="_blank"><img src=""> </a>
 
 
 ## Setup/Installation Requirements
