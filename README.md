@@ -1,3 +1,46 @@
+# React Portfolio Display
+
+#### React Portfolio-Repo , 4/26/2020
+
+#### By Nikola Jovanovic
+
+
+## Live Preview
+
+<a href="" target="_blank"><img src=""> </a>
+
+
+## Setup/Installation Requirements
+
+* Clone this repository to your local machine if you wish to edit
+ - npm install
+ - npm start
+ - Application will run on localhost:3000
+
+
+
+## Support and contact details
+
+Please email me for further questions at nikola4work@gmail.com
+
+
+## Technologies Used
+
+* React.js
+* React Bootstrap
+* React Router
+* Deployed live with Netlify
+
+
+
+### License 
+
+Copyright(c) 2020 By Nikola Jovanovic
+
+
+
+# React Documentation:
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
