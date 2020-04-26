@@ -7,7 +7,7 @@
 
 ## Live Preview
 
-<a href="src/Components/Images/readme_img.gif" target="_blank"><img src=""> </a>
+<a href="https://serene-panini-20f145.netlify.app/" target="_blank"><img src="https://github.com/nikola4work/React_Portfolio_Final/blob/master/src/Components/Images/readme_img.gif"> </a>
 
 
 ## Setup/Installation Requirements
