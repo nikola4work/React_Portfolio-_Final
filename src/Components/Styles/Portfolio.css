@@ -10,79 +10,84 @@
     background-size: cover;
     min-height: 100vh;
     min-width: 100vw;
-    color: #fff;
     overflow: hidden;
 }
 
 /* portofolio cards*/
 
-.project {
-    margin-top: 30px;
-}
-
-.project-work {
-    min-width: 23vw;
-    min-height: 40vh;
-    margin: 5px;
-    position: relative;
-    left: 5%;
-    margin: 20px;
-    margin-top: 20px;
-    margin-left: 40px;
-}
-
-.image {
-    opacity: 1;
-    display: block;
-    height: 262px;
-    width: 320px;
-    transition: .5s ease;
-    backface-visibility: hidden;
-    position: relative;
-    left: -6%;
-    border-radius: 8px;
-}
-
-.middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+.our-team-main {
+    border-bottom: 5px #323233 solid;
+    width: 350px;
+    height: 250px;
+    background-color: #fff;
     text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    left: 20%;
+    transition: 0.5s;
+    margin-bottom: 28px;
+    margin:20px;
 }
 
-.project-work:hover .image {
-    opacity: 0.3;
-}
-
-.project-work:hover .middle {
-    opacity: 1;
-}
-
-.text {
-    background-color: #2196F3;
-    color: #fff;
-    height: 262px;
-    width: 320px;
+.our-team-main img {
+    width: 350px;
+    height: 250px;
 }
 
 .work-title {
-    padding-top: 20px;
-    font-size: 25px;
+    text-align: center;
+    margin-top: 5px;
 }
 
-.work-text {
-    padding: 20px;
-    font-size: 20px;
+.team {
+  margin-top: 20px;
+  margin-left: 10px;
+    min-width: 90vw;
+}
+
+
+
+.team-back {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px 15px 0 15px;
+    text-align: left;
+    background: #fff;
+}
+
+.team-front {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 10;
+    background: #fff;
+    padding: 15px;
+    bottom: 0px;
+    transition: all 0.5s ease;
+}
+
+.our-team-main:hover .team-front {
+    bottom: -230px;
+    transition: all 0.5s ease;
+    background-color: #323233;
+    color:#fff;
+}
+
+.our-team-main:hover {
+    border-color: #777;
+    transition: 0.5s;
 }
 
 .button {
-    padding: 5px 10px 5px 10px;
+    margin-top: 20px;
+    margin-left: 110px;
+    padding: 5px 8px 5px 8px;
     border-radius: 7px;
-    font-size: 20px;
+    font-size: 18px;
     transition: transform 0.2s;
 }
 
@@ -92,69 +97,6 @@
     box-shadow: 2px 2px 3px 0px black;
 }
 
-/* MEDIA QUERY */
-
-@media only screen and (max-width: 375px) {
-    .project-work {
-      
-    }
-    .image {
-        width: 200px;
-        height: 200px;
-    }
-    .middle {
-        position: relative;
-        left: -5%;
-    }
-    .text {
-        width: 200px;
-        height: 200px;
-        margin-top: -262px;
-        margin-left: 40px;
-    }
-    .work-title {
-        font-size: 15px;
-    }
-    .work-text {
-        font-size: 12px;
-    }
-    .button {
-        font-size: 12px;
-    }
-}
-
-@media only screen and (max-width: 450px) {
-    .project {
-        min-width: 100vw;
-        min-height: 100vh;
-    }
-    .project-work {
-        position: relative;
-        right: 60%;
-    }
-}
-
-/* Extra small devices (phones, 600px and down) */
-
-@media screen and (max-width: 768px) {
-    .project {
-        display: flex;
-        flex-direction: row;
-    }
-    .middle {
-        margin-left: 76px;
-        margin-top: -70px;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .project {
-        display: flex;
-        flex-direction: row;
-        margin-left: 50px;
-    }
-    .middle {
-        margin-left: 76px;
-        margin-top: -70px;
-    }
+.margin {
+    margin-top: 30px;
 }
