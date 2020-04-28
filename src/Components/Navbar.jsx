@@ -55,7 +55,7 @@ function Navbar() {
         </a>
 
         <a
-          href="https://drive.google.com/file/d/1Ron7GiJFUX5d-D84LqDdkR3waELumITW/view?usp=sharing"
+          href="https://drive.google.com/file/d/1IWwuPEA4HMmc8ZtLdGXTSHUPkQqZU_jy/view?usp=sharing"
           id="resume"
           target="_blank"
           rel="noopener noreferrer"
